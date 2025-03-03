@@ -140,7 +140,7 @@ default_args = {
 dag = DAG(
     dag_id="redshift_to_s3_dag",
     default_args=default_args,
-    schedule_interval=""0 2 * * *"",
+    schedule_interval=""0 3 * * *"",
     catchup=False
 )
 
