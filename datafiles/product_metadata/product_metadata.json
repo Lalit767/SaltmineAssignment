@@ -1,0 +1,35 @@
+[
+    {
+        "event_type": "purchase",
+        "user_id": 1,
+        "product_id": 101,
+        "amount": 29.99,
+        "timestamp": "2024-10-08T12:00:00Z"
+    },
+    {
+        "event_type": "page_view",
+        "user_id": 2,
+        "product_id": 102,
+        "timestamp": "2024-10-08T12:01:00Z"
+    },
+    {
+        "event_type": "purchase",
+        "user_id": 1,
+        "product_id": 102,
+        "amount": 19.99,
+        "timestamp": "2024-10-08T12:02:00Z"
+    },
+    {
+        "event_type": "inventory_update",
+        "product_id": 101,
+        "stock": 50,
+        "timestamp": "2024-10-08T12:03:00Z"
+    },
+    {
+        "event_type": "purchase",
+        "user_id": 3,
+        "product_id": 103,
+        "amount": 39.99,
+        "timestamp": "2024-10-08T12:04:00Z"
+    }
+]

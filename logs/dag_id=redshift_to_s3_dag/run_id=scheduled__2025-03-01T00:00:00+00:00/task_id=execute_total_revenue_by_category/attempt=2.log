@@ -1,0 +1,21 @@
+[2025-03-02T06:34:21.259+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-02T06:34:21.279+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: redshift_to_s3_dag.execute_total_revenue_by_category scheduled__2025-03-01T00:00:00+00:00 [queued]>
+[2025-03-02T06:34:21.289+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: redshift_to_s3_dag.execute_total_revenue_by_category scheduled__2025-03-01T00:00:00+00:00 [queued]>
+[2025-03-02T06:34:21.291+0000] {taskinstance.py:2867} INFO - Starting attempt 2 of 2
+[2025-03-02T06:34:21.309+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): execute_total_revenue_by_category> on 2025-03-01 00:00:00+00:00
+[2025-03-02T06:34:21.317+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=219) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-02T06:34:21.319+0000] {standard_task_runner.py:72} INFO - Started process 240 to run task
+[2025-03-02T06:34:21.318+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'redshift_to_s3_dag', 'execute_total_revenue_by_category', 'scheduled__2025-03-01T00:00:00+00:00', '--job-id', '140', '--raw', '--subdir', 'DAGS_FOLDER/final_aggregation_dag.py', '--cfg-path', '/tmp/tmpefmvss1c']
+[2025-03-02T06:34:21.321+0000] {standard_task_runner.py:105} INFO - Job 140: Subtask execute_total_revenue_by_category
+[2025-03-02T06:34:21.341+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-03-02T06:34:21.389+0000] {task_command.py:467} INFO - Running <TaskInstance: redshift_to_s3_dag.execute_total_revenue_by_category scheduled__2025-03-01T00:00:00+00:00 [running]> on host 763fac820cd7
+[2025-03-02T06:34:21.392+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-03-02T06:34:21.515+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='redshift_to_s3_dag' AIRFLOW_CTX_TASK_ID='execute_total_revenue_by_category' AIRFLOW_CTX_EXECUTION_DATE='2025-03-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-03-01T00:00:00+00:00'
+[2025-03-02T06:34:21.517+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-02T06:34:24.059+0000] {logging_mixin.py:190} INFO - Query total_revenue_by_category executed. Results saved to /tmp/total_revenue_by_category.csv
+[2025-03-02T06:34:24.076+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-03-02T06:34:24.087+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-02T06:34:24.088+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=redshift_to_s3_dag, task_id=execute_total_revenue_by_category, run_id=scheduled__2025-03-01T00:00:00+00:00, execution_date=20250301T000000, start_date=20250302T063421, end_date=20250302T063424
+[2025-03-02T06:34:24.133+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-02T06:34:24.160+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-02T06:34:24.161+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -1,0 +1,26 @@
+[2025-03-01T19:22:06.465+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-01T19:22:06.484+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: redshift_query_dag.execute_total_revenue_by_category manual__2025-03-01T19:22:04.617226+00:00 [queued]>
+[2025-03-01T19:22:06.493+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: redshift_query_dag.execute_total_revenue_by_category manual__2025-03-01T19:22:04.617226+00:00 [queued]>
+[2025-03-01T19:22:06.494+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 2
+[2025-03-01T19:22:06.509+0000] {taskinstance.py:2890} INFO - Executing <Task(PythonOperator): execute_total_revenue_by_category> on 2025-03-01 19:22:04.617226+00:00
+[2025-03-01T19:22:06.518+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=8954) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-01T19:22:06.519+0000] {standard_task_runner.py:72} INFO - Started process 8956 to run task
+[2025-03-01T19:22:06.518+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'redshift_query_dag', 'execute_total_revenue_by_category', 'manual__2025-03-01T19:22:04.617226+00:00', '--job-id', '123', '--raw', '--subdir', 'DAGS_FOLDER/final_aggregation_dag.py', '--cfg-path', '/tmp/tmpuzhfuzug']
+[2025-03-01T19:22:06.521+0000] {standard_task_runner.py:105} INFO - Job 123: Subtask execute_total_revenue_by_category
+[2025-03-01T19:22:06.536+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-03-01T19:22:06.575+0000] {task_command.py:467} INFO - Running <TaskInstance: redshift_query_dag.execute_total_revenue_by_category manual__2025-03-01T19:22:04.617226+00:00 [running]> on host 763fac820cd7
+[2025-03-01T19:22:06.680+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='redshift_query_dag' AIRFLOW_CTX_TASK_ID='execute_total_revenue_by_category' AIRFLOW_CTX_EXECUTION_DATE='2025-03-01T19:22:04.617226+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-01T19:22:04.617226+00:00'
+[2025-03-01T19:22:06.681+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-01T19:22:08.768+0000] {logging_mixin.py:190} INFO -    product_id  total_revenue
+0         103          79.98
+1         101          59.98
+2         102          39.98
+[2025-03-01T19:22:08.769+0000] {python.py:240} INFO - Done. Returned value was:    product_id  total_revenue
+0         103          79.98
+1         101          59.98
+2         102          39.98
+[2025-03-01T19:22:08.810+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-01T19:22:08.810+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=redshift_query_dag, task_id=execute_total_revenue_by_category, run_id=manual__2025-03-01T19:22:04.617226+00:00, execution_date=20250301T192204, start_date=20250301T192206, end_date=20250301T192208
+[2025-03-01T19:22:08.875+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-01T19:22:08.907+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-01T19:22:08.909+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

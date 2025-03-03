@@ -1,0 +1,39 @@
+[
+    {
+        "event_details": {
+            "event_type": "purchase",
+            "user": {
+                "user_id": 1
+            },
+            "product": {
+                "product_id": 101,
+                "amount": 49.99
+            },
+            "timestamp": "2024-10-13T14:00:00Z"
+        }
+    },
+    {
+        "event_details": {
+            "event_type": "page_view",
+            "user": {
+                "user_id": 2
+            },
+            "product": {
+                "product_id": 102
+            },
+            "timestamp": "2024-10-13T14:10:00Z"
+        }
+    },
+    {
+        "event_details": {
+            "event_type": "wishlist_add",
+            "user": {
+                "user_id": 3
+            },
+            "product": {
+                "product_id": 103
+            },
+            "timestamp": "2024-10-13T14:20:00Z"
+        }
+    }
+]

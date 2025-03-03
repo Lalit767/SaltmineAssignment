@@ -1,0 +1,31 @@
+[2025-02-28T16:44:41.763+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-02-28T16:44:41.790+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: s3_to_redshift_using_glue.run_glue_crawler manual__2025-02-28T16:44:40.531694+00:00 [queued]>
+[2025-02-28T16:44:41.802+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: s3_to_redshift_using_glue.run_glue_crawler manual__2025-02-28T16:44:40.531694+00:00 [queued]>
+[2025-02-28T16:44:41.802+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-02-28T16:44:41.822+0000] {taskinstance.py:2890} INFO - Executing <Task(GlueCrawlerOperator): run_glue_crawler> on 2025-02-28 16:44:40.531694+00:00
+[2025-02-28T16:44:41.832+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=3300) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-02-28T16:44:41.833+0000] {standard_task_runner.py:72} INFO - Started process 3301 to run task
+[2025-02-28T16:44:41.831+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 's3_to_redshift_using_glue', 'run_glue_crawler', 'manual__2025-02-28T16:44:40.531694+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/transformed_data_dag.py', '--cfg-path', '/tmp/tmpkykx7tqu']
+[2025-02-28T16:44:41.834+0000] {standard_task_runner.py:105} INFO - Job 83: Subtask run_glue_crawler
+[2025-02-28T16:44:41.853+0000] {logging_mixin.py:190} WARNING - /home/***/.local/lib/python3.12/site-packages/***/settings.py:209 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-02-28T16:44:41.907+0000] {task_command.py:467} INFO - Running <TaskInstance: s3_to_redshift_using_glue.run_glue_crawler manual__2025-02-28T16:44:40.531694+00:00 [running]> on host ba37d1932f36
+[2025-02-28T16:44:42.027+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='s3_to_redshift_using_glue' AIRFLOW_CTX_TASK_ID='run_glue_crawler' AIRFLOW_CTX_EXECUTION_DATE='2025-02-28T16:44:40.531694+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-02-28T16:44:40.531694+00:00'
+[2025-02-28T16:44:42.028+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-02-28T16:44:42.055+0000] {glue_crawler.py:57} INFO - Checking if crawler already exists: redshift_parquet_crawler
+[2025-02-28T16:44:42.069+0000] {base.py:84} INFO - Retrieving connection 'aws_default'
+[2025-02-28T16:44:42.070+0000] {connection_wrapper.py:325} INFO - AWS Connection (conn_id='aws_default', conn_type='aws') credentials retrieved from login and password.
+[2025-02-28T16:44:43.998+0000] {glue_crawler.py:99} INFO - Triggering AWS Glue Crawler
+[2025-02-28T16:44:43.998+0000] {glue_crawler.py:170} INFO - Starting crawler redshift_parquet_crawler
+[2025-02-28T16:44:55.513+0000] {glue_crawler.py:114} INFO - Waiting for AWS Glue Crawler
+[2025-02-28T16:48:07.651+0000] {glue_crawler.py:185} INFO - crawler_config: {'Name': 'redshift_parquet_crawler', 'Role': 'service-role/AWSGlueServiceRole-Lalit', 'Targets': {'S3Targets': [{'Path': 's3://dataingestionjson/processed/2025-02-27/', 'Exclusions': []}], 'JdbcTargets': [], 'MongoDBTargets': [], 'DynamoDBTargets': [], 'CatalogTargets': [], 'DeltaTargets': [], 'IcebergTargets': [], 'HudiTargets': []}, 'DatabaseName': 'transformed_db', 'Description': 'crawler', 'Classifiers': [], 'RecrawlPolicy': {'RecrawlBehavior': 'CRAWL_EVERYTHING'}, 'SchemaChangePolicy': {'UpdateBehavior': 'UPDATE_IN_DATABASE', 'DeleteBehavior': 'DEPRECATE_IN_DATABASE'}, 'LineageConfiguration': {'CrawlerLineageSettings': 'DISABLE'}, 'State': 'READY', 'Schedule': {'ScheduleExpression': 'cron(48 14 * * ? *)', 'State': 'SCHEDULED'}, 'CrawlElapsedTime': 0, 'CreationTime': datetime.datetime(2025, 2, 28, 14, 48, 57, tzinfo=tzlocal()), 'LastUpdated': datetime.datetime(2025, 2, 28, 14, 48, 57, tzinfo=tzlocal()), 'LastCrawl': {'Status': 'SUCCEEDED', 'LogGroup': '/aws-glue/crawlers', 'LogStream': 'redshift_parquet_crawler', 'MessagePrefix': '3ac68735-48d4-4d88-a174-27aa3c5dabd5', 'StartTime': datetime.datetime(2025, 2, 28, 16, 44, 44, tzinfo=tzlocal())}, 'Version': 2, 'Configuration': '{"Version":1.0,"CreatePartitionIndex":true}', 'LakeFormationConfiguration': {'UseLakeFormationCredentials': False, 'AccountId': ''}}
+[2025-02-28T16:48:07.940+0000] {glue_crawler.py:190} INFO - Status: SUCCEEDED
+[2025-02-28T16:48:07.941+0000] {glue_crawler.py:191} INFO - Last Runtime Duration (seconds): 75.514
+[2025-02-28T16:48:07.943+0000] {glue_crawler.py:192} INFO - Median Runtime Duration (seconds): 75.514
+[2025-02-28T16:48:07.944+0000] {glue_crawler.py:193} INFO - Tables Created: 0
+[2025-02-28T16:48:07.945+0000] {glue_crawler.py:194} INFO - Tables Updated: 0
+[2025-02-28T16:48:07.946+0000] {glue_crawler.py:195} INFO - Tables Deleted: 0
+[2025-02-28T16:48:07.984+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-02-28T16:48:07.985+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=s3_to_redshift_using_glue, task_id=run_glue_crawler, run_id=manual__2025-02-28T16:44:40.531694+00:00, execution_date=20250228T164440, start_date=20250228T164441, end_date=20250228T164807
+[2025-02-28T16:48:08.079+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-02-28T16:48:08.131+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-02-28T16:48:08.133+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
