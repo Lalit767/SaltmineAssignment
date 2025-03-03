@@ -2231,3 +2231,66 @@
 [2025-03-03T05:35:24.629+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:24.628+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-03T05:35:24.653+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:24.653+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
 [2025-03-03T05:35:24.670+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.647 seconds
+[2025-03-03T05:35:54.794+0000] {processor.py:186} INFO - Started process (PID=9076) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:35:54.795+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:35:54.798+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:54.797+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:35:55.568+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:35:55.596+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:55.595+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:35:55.623+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:55.623+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:35:55.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.860 seconds
+[2025-03-03T05:36:25.984+0000] {processor.py:186} INFO - Started process (PID=9103) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:36:25.985+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:36:25.988+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:25.988+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:36:26.616+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:36:26.642+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:26.642+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:36:26.668+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:26.667+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:36:26.686+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.712 seconds
+[2025-03-03T05:36:56.817+0000] {processor.py:186} INFO - Started process (PID=9130) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:36:56.819+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:36:56.822+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:56.822+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:36:57.430+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:36:57.453+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:57.453+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:36:57.477+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:57.477+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:36:57.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.686 seconds
+[2025-03-03T05:37:27.752+0000] {processor.py:186} INFO - Started process (PID=9157) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:37:27.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:37:27.757+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:27.756+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:37:28.374+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:37:28.402+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:28.402+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:37:28.429+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:28.429+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:37:28.448+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.704 seconds
+[2025-03-03T05:37:58.899+0000] {processor.py:186} INFO - Started process (PID=9184) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:37:58.900+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:37:58.903+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:58.902+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:37:59.580+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:37:59.609+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:59.608+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:37:59.638+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:59.638+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:37:59.659+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.768 seconds
+[2025-03-03T05:38:29.948+0000] {processor.py:186} INFO - Started process (PID=9211) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:38:29.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:38:29.952+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:38:29.952+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:38:30.610+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:38:30.642+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:38:30.641+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:38:30.669+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:38:30.668+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:38:30.692+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.752 seconds
+[2025-03-03T05:39:00.949+0000] {processor.py:186} INFO - Started process (PID=9238) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:39:00.950+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:39:00.953+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:00.953+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:39:01.539+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:39:01.562+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:01.562+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:39:01.585+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:01.585+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:39:01.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.662 seconds
+[2025-03-03T05:39:31.883+0000] {processor.py:186} INFO - Started process (PID=9265) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:39:31.884+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:39:31.887+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:31.887+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:39:32.574+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:39:32.601+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:32.600+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:39:32.634+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:32.634+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:39:32.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.780 seconds
+[2025-03-03T05:40:03.166+0000] {processor.py:186} INFO - Started process (PID=9292) to work on /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:40:03.167+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/final_aggregation_dag.py for tasks to queue
+[2025-03-03T05:40:03.170+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:40:03.169+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:40:03.854+0000] {processor.py:925} INFO - DAG(s) 'redshift_to_s3_dag' retrieved from /opt/airflow/dags/final_aggregation_dag.py
+[2025-03-03T05:40:03.882+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:40:03.881+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:40:03.914+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:40:03.913+0000] {dag.py:4180} INFO - Setting next_dagrun for redshift_to_s3_dag to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:40:03.933+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/final_aggregation_dag.py took 0.775 seconds

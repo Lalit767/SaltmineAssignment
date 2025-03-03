@@ -1936,3 +1936,63 @@
 [2025-03-03T05:35:09.181+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:09.181+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
 [2025-03-03T05:35:09.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
 [2025-03-03T05:35:09.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.422 seconds
+[2025-03-03T05:35:39.667+0000] {processor.py:186} INFO - Started process (PID=9060) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:35:39.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:35:39.671+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:39.670+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:35:39.790+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:39.790+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:35:40.078+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:35:40.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.439 seconds
+[2025-03-03T05:36:10.578+0000] {processor.py:186} INFO - Started process (PID=9087) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:36:10.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:36:10.583+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:10.582+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:36:10.852+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:10.852+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:36:10.962+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:36:10.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.407 seconds
+[2025-03-03T05:36:41.638+0000] {processor.py:186} INFO - Started process (PID=9114) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:36:41.639+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:36:41.642+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:41.642+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:36:41.896+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:36:41.895+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:36:42.004+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:36:42.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.389 seconds
+[2025-03-03T05:37:12.465+0000] {processor.py:186} INFO - Started process (PID=9141) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:37:12.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:37:12.470+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:12.470+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:37:12.728+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:12.728+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:37:12.831+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:37:12.845+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.388 seconds
+[2025-03-03T05:37:43.431+0000] {processor.py:186} INFO - Started process (PID=9168) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:37:43.432+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:37:43.435+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:43.435+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:37:43.701+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:37:43.700+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:37:43.805+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:37:43.818+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.395 seconds
+[2025-03-03T05:38:14.605+0000] {processor.py:186} INFO - Started process (PID=9195) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:38:14.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:38:14.609+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:38:14.609+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:38:14.871+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:38:14.871+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:38:14.983+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:38:14.997+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.400 seconds
+[2025-03-03T05:38:45.694+0000] {processor.py:186} INFO - Started process (PID=9222) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:38:45.695+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:38:45.698+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:38:45.697+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:38:45.945+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:38:45.945+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:38:46.052+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:38:46.064+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.378 seconds
+[2025-03-03T05:39:16.596+0000] {processor.py:186} INFO - Started process (PID=9249) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:39:16.597+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:39:16.601+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:16.601+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:39:16.888+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:16.888+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:39:16.986+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:39:17.001+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.414 seconds
+[2025-03-03T05:39:47.647+0000] {processor.py:186} INFO - Started process (PID=9276) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:39:47.648+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:39:47.651+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:47.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:39:47.942+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:39:47.942+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:39:48.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:39:48.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.444 seconds
+[2025-03-03T05:40:18.840+0000] {processor.py:186} INFO - Started process (PID=9303) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:40:18.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:40:18.844+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:40:18.844+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:40:19.097+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:40:19.097+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:40:19.210+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:40:19.225+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.393 seconds
