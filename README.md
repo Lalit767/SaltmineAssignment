@@ -63,6 +63,47 @@ airflow users create \
     --password YOUR_PASSWORD
 ```
 
+## Configure Airflow Connections
+
+### Option 1: Add Connections via Airflow UI
+1. Open Airflow UI at [http://localhost:8080](http://localhost:8080)
+2. Navigate to **Admin** → **Connections**
+3. Click on **+ Add a new record**
+4. Enter the required connection details (e.g., AWS, Postgres, etc.)
+5. Click **Save**
+
+### Option 2: Define Connections in `docker-compose.yaml`
+You can predefine Airflow connections using environment variables in the `docker-compose.yaml` file:
+```yaml
+environment:
+  - AIRFLOW_CONN_AWS_DEFAULT=aws://YOUR_ACCESS_KEY:YOUR_SECRET_KEY@
+  - AIRFLOW_CONN_POSTGRES=postgres://USER:PASSWORD@HOST:PORT/DB_NAME
+```
+After updating the file, restart Airflow:
+```sh
+docker-compose down
+```
+```sh
+docker-compose up -d
+```
+
+### Mount Local Folder Volumes in `docker-compose.yaml`
+Modify your `docker-compose.yaml` to mount local directories to containers:
+```yaml
+volumes:
+  - ./dags:/opt/airflow/dags
+  - ./logs:/opt/airflow/logs
+  - ./plugins:/opt/airflow/plugins
+  - ./data:/opt/airflow/data
+```
+After updating, restart the containers:
+```sh
+docker-compose down
+```
+```sh
+docker-compose up -d
+```
+
 ## Common Airflow Docker Commands
 
 ### View logs of a container:
