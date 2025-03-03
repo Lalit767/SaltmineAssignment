@@ -2182,3 +2182,347 @@
 [2025-03-03T05:12:06.445+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:12:06.444+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-03T05:12:06.470+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:12:06.470+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
 [2025-03-03T05:12:06.488+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.747 seconds
+[2025-03-03T05:12:37.057+0000] {processor.py:186} INFO - Started process (PID=7850) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:12:37.058+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:12:37.062+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:12:37.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:12:37.642+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:12:37.641+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:12:37.723+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:12:37.747+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:12:37.746+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:12:37.773+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:12:37.773+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:12:37.791+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.742 seconds
+[2025-03-03T05:13:08.196+0000] {processor.py:186} INFO - Started process (PID=7877) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:13:08.197+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:13:08.201+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:08.201+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:13:08.820+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:08.820+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:13:08.895+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:13:08.924+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:08.924+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:13:08.950+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:08.950+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:13:08.968+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.780 seconds
+[2025-03-03T05:13:39.199+0000] {processor.py:186} INFO - Started process (PID=7904) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:13:39.200+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:13:39.203+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:39.203+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:13:39.804+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:39.804+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:13:39.909+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:13:39.934+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:39.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:13:39.960+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:13:39.960+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:13:39.981+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.790 seconds
+[2025-03-03T05:14:09.130+0000] {processor.py:186} INFO - Started process (PID=7931) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:14:09.132+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:14:09.134+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:09.134+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:14:09.734+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:09.734+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:14:09.814+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:14:09.839+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:09.838+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:14:09.867+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:09.867+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:14:09.892+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.769 seconds
+[2025-03-03T05:14:40.058+0000] {processor.py:186} INFO - Started process (PID=7958) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:14:40.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:14:40.065+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:40.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:14:40.639+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:40.638+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:14:40.725+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:14:40.748+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:40.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:14:40.773+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:14:40.773+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:14:40.789+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.743 seconds
+[2025-03-03T05:15:11.224+0000] {processor.py:186} INFO - Started process (PID=7985) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:15:11.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:15:11.228+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:11.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:15:11.833+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:11.833+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:15:11.928+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:15:11.952+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:11.951+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:15:11.980+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:11.980+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:15:12.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.785 seconds
+[2025-03-03T05:15:42.065+0000] {processor.py:186} INFO - Started process (PID=8012) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:15:42.066+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:15:42.069+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:42.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:15:42.617+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:42.617+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:15:42.694+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:15:42.721+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:42.721+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:15:42.745+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:15:42.745+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:15:42.762+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.707 seconds
+[2025-03-03T05:16:13.054+0000] {processor.py:186} INFO - Started process (PID=8039) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:16:13.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:16:13.058+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:13.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:16:13.772+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:13.771+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:16:13.880+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:16:13.915+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:13.914+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:16:13.944+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:13.943+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:16:13.963+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.918 seconds
+[2025-03-03T05:16:44.179+0000] {processor.py:186} INFO - Started process (PID=8066) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:16:44.180+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:16:44.183+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:44.182+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:16:44.744+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:44.744+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:16:44.821+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:16:44.846+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:44.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:16:44.869+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:16:44.869+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:16:44.886+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.715 seconds
+[2025-03-03T05:17:15.324+0000] {processor.py:186} INFO - Started process (PID=8093) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:17:15.325+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:17:15.329+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:15.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:17:15.869+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:15.868+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:17:15.945+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:17:15.968+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:15.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:17:15.993+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:15.993+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:17:16.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.700 seconds
+[2025-03-03T05:17:46.163+0000] {processor.py:186} INFO - Started process (PID=8120) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:17:46.164+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:17:46.168+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:46.167+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:17:46.715+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:46.714+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:17:46.795+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:17:46.819+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:46.818+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:17:46.844+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:17:46.844+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:17:46.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.705 seconds
+[2025-03-03T05:18:17.247+0000] {processor.py:186} INFO - Started process (PID=8147) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:18:17.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:18:17.251+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:17.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:18:17.841+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:17.841+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:18:17.913+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:18:17.933+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:17.932+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:18:17.959+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:17.959+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:18:17.977+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.738 seconds
+[2025-03-03T05:18:48.440+0000] {processor.py:186} INFO - Started process (PID=8174) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:18:48.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:18:48.445+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:48.444+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:18:49.087+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:49.086+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:18:49.175+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:18:49.208+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:49.208+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:18:49.234+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:18:49.233+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:18:49.258+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.825 seconds
+[2025-03-03T05:19:19.912+0000] {processor.py:186} INFO - Started process (PID=8201) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:19:19.913+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:19:19.917+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:19.916+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:19:20.485+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:20.484+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:19:20.572+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:19:20.602+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:20.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:19:20.628+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:20.628+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:19:20.649+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.746 seconds
+[2025-03-03T05:19:51.145+0000] {processor.py:186} INFO - Started process (PID=8228) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:19:51.146+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:19:51.149+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:51.149+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:19:51.773+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:51.772+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:19:51.856+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:19:51.880+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:51.880+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:19:51.904+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:19:51.904+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:19:51.923+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.786 seconds
+[2025-03-03T05:20:21.965+0000] {processor.py:186} INFO - Started process (PID=8255) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:20:21.967+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:20:21.969+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:21.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:20:22.522+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:22.522+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:20:22.599+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:20:22.617+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:22.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:20:22.641+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:22.640+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:20:22.655+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.698 seconds
+[2025-03-03T05:20:53.072+0000] {processor.py:186} INFO - Started process (PID=8282) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:20:53.074+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:20:53.076+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:53.076+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:20:53.617+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:53.617+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:20:53.696+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:20:53.717+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:53.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:20:53.744+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:20:53.743+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:20:53.760+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.696 seconds
+[2025-03-03T05:21:24.006+0000] {processor.py:186} INFO - Started process (PID=8309) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:21:24.007+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:21:24.010+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:24.009+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:21:24.607+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:24.606+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:21:24.698+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:21:24.735+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:24.734+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:21:24.764+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:24.763+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:21:24.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.787 seconds
+[2025-03-03T05:21:55.014+0000] {processor.py:186} INFO - Started process (PID=8336) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:21:55.015+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:21:55.019+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:55.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:21:55.679+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:55.679+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:21:55.765+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:21:55.791+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:55.790+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:21:55.818+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:21:55.818+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:21:55.837+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.832 seconds
+[2025-03-03T05:22:26.240+0000] {processor.py:186} INFO - Started process (PID=8363) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:22:26.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:22:26.244+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:26.244+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:22:26.759+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:26.759+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:22:26.834+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:22:26.858+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:26.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:22:26.882+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:26.882+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:22:26.903+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.671 seconds
+[2025-03-03T05:22:56.996+0000] {processor.py:186} INFO - Started process (PID=8390) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:22:56.998+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:22:57.000+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:57.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:22:57.529+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:57.528+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:22:57.609+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:22:57.633+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:57.633+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:22:57.659+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:22:57.659+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:22:57.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.689 seconds
+[2025-03-03T05:23:27.857+0000] {processor.py:186} INFO - Started process (PID=8417) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:23:27.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:23:27.861+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:23:27.861+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:23:28.399+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:23:28.399+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:23:28.478+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:23:28.501+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:23:28.500+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:23:28.526+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:23:28.526+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:23:28.543+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.694 seconds
+[2025-03-03T05:23:59.061+0000] {processor.py:186} INFO - Started process (PID=8444) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:23:59.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:23:59.065+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:23:59.065+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:23:59.956+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:23:59.955+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:24:00.080+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:24:00.136+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:24:00.135+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:24:00.178+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:24:00.178+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:24:00.207+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 1.155 seconds
+[2025-03-03T05:24:30.687+0000] {processor.py:186} INFO - Started process (PID=8471) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:24:30.689+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:24:30.692+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:24:30.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:24:31.271+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:24:31.270+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:24:31.423+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:24:31.468+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:24:31.468+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:24:31.498+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:24:31.498+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:24:31.520+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.843 seconds
+[2025-03-03T05:25:01.863+0000] {processor.py:186} INFO - Started process (PID=8498) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:25:01.865+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:25:01.869+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:01.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:25:02.503+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:02.502+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:25:02.592+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:25:02.616+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:02.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:25:02.640+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:02.640+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:25:02.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.806 seconds
+[2025-03-03T05:25:33.099+0000] {processor.py:186} INFO - Started process (PID=8525) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:25:33.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:25:33.103+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:33.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:25:33.667+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:33.666+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:25:33.745+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:25:33.769+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:33.769+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:25:33.794+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:25:33.794+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:25:33.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.721 seconds
+[2025-03-03T05:26:04.401+0000] {processor.py:186} INFO - Started process (PID=8552) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:26:04.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:26:04.405+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:04.405+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:26:04.925+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:04.924+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:26:05.006+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:26:05.030+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:05.029+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:26:05.054+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:05.054+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:26:05.072+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.679 seconds
+[2025-03-03T05:26:35.571+0000] {processor.py:186} INFO - Started process (PID=8579) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:26:35.572+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:26:35.576+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:35.575+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:26:36.205+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:36.205+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:26:36.284+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:26:36.307+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:36.306+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:26:36.338+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:26:36.337+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:26:36.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.795 seconds
+[2025-03-03T05:27:06.901+0000] {processor.py:186} INFO - Started process (PID=8606) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:27:06.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:27:06.905+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:06.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:27:07.456+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:07.455+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:27:07.545+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:27:07.575+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:07.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:27:07.599+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:07.599+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:27:07.617+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.724 seconds
+[2025-03-03T05:27:38.112+0000] {processor.py:186} INFO - Started process (PID=8633) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:27:38.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:27:38.115+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:38.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:27:38.693+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:38.693+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:27:38.783+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:27:38.808+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:38.807+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:27:38.835+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:27:38.834+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:27:38.854+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.748 seconds
+[2025-03-03T05:28:09.031+0000] {processor.py:186} INFO - Started process (PID=8660) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:28:09.032+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:28:09.035+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:09.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:28:09.574+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:09.573+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:28:09.653+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:28:09.677+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:09.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:28:09.700+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:09.700+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:28:09.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.693 seconds
+[2025-03-03T05:28:40.132+0000] {processor.py:186} INFO - Started process (PID=8687) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:28:40.133+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:28:40.136+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:40.136+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:28:40.705+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:40.705+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:28:40.823+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:28:40.867+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:40.866+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:28:40.914+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:28:40.913+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:28:40.945+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.821 seconds
+[2025-03-03T05:29:11.362+0000] {processor.py:186} INFO - Started process (PID=8714) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:29:11.363+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:29:11.366+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:11.366+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:29:11.966+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:11.965+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:29:12.064+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:29:12.088+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:12.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:29:12.117+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:12.117+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:29:12.137+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.782 seconds
+[2025-03-03T05:29:42.274+0000] {processor.py:186} INFO - Started process (PID=8741) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:29:42.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:29:42.278+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:42.278+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:29:43.201+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:43.200+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:29:43.322+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:29:43.361+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:43.361+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:29:43.388+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:29:43.388+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:29:43.409+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 1.144 seconds
+[2025-03-03T05:30:14.128+0000] {processor.py:186} INFO - Started process (PID=8768) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:30:14.129+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:30:14.132+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:14.132+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:30:14.742+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:14.741+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:30:14.823+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:30:14.846+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:14.845+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:30:14.869+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:14.869+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:30:14.887+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.768 seconds
+[2025-03-03T05:30:44.982+0000] {processor.py:186} INFO - Started process (PID=8800) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:30:44.984+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:30:44.987+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:44.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:30:45.578+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:45.577+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:30:45.658+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:30:45.683+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:45.682+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:30:45.706+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:30:45.706+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:30:45.722+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.748 seconds
+[2025-03-03T05:31:15.783+0000] {processor.py:186} INFO - Started process (PID=8827) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:31:15.785+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:31:15.788+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:15.788+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:31:16.495+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:16.495+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:31:16.606+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:31:16.634+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:16.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:31:16.665+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:16.664+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:31:16.691+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.916 seconds
+[2025-03-03T05:31:46.964+0000] {processor.py:186} INFO - Started process (PID=8854) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:31:46.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:31:46.968+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:46.967+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:31:47.507+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:47.506+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:31:47.591+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:31:47.617+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:47.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:31:47.645+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:31:47.645+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:31:47.664+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.708 seconds
+[2025-03-03T05:32:17.759+0000] {processor.py:186} INFO - Started process (PID=8881) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:32:17.760+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:32:17.763+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:17.763+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:32:18.298+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:18.297+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:32:18.367+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:32:18.393+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:18.392+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:32:18.417+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:18.417+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:32:18.436+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.685 seconds
+[2025-03-03T05:32:48.569+0000] {processor.py:186} INFO - Started process (PID=8908) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:32:48.570+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:32:48.574+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:48.573+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:32:49.220+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:49.219+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:32:49.320+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:32:49.352+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:49.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:32:49.378+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:32:49.378+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:32:49.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.837 seconds
+[2025-03-03T05:33:19.712+0000] {processor.py:186} INFO - Started process (PID=8935) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:33:19.713+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:33:19.716+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:19.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:33:20.287+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:20.286+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:33:20.365+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:33:20.388+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:20.388+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:33:20.412+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:20.411+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:33:20.428+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.724 seconds
+[2025-03-03T05:33:50.594+0000] {processor.py:186} INFO - Started process (PID=8962) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:33:50.595+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:33:50.598+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:50.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:33:51.229+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:51.229+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:33:51.323+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:33:51.353+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:51.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:33:51.385+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:33:51.385+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:33:51.406+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.820 seconds
+[2025-03-03T05:34:21.670+0000] {processor.py:186} INFO - Started process (PID=8989) to work on /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:34:21.671+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/s3_transformation_redshift_dag.py for tasks to queue
+[2025-03-03T05:34:21.674+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:34:21.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:34:22.259+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:34:22.258+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:34:22.358+0000] {processor.py:925} INFO - DAG(s) 's3_to_redshift_transformed' retrieved from /opt/airflow/dags/s3_transformation_redshift_dag.py
+[2025-03-03T05:34:22.383+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:34:22.382+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:34:22.410+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:34:22.410+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_to_redshift_transformed to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:34:22.429+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/s3_transformation_redshift_dag.py took 0.767 seconds
