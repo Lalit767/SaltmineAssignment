@@ -1924,3 +1924,15 @@
 [2025-03-03T05:34:07.394+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:34:07.393+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
 [2025-03-03T05:34:07.490+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
 [2025-03-03T05:34:07.504+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.406 seconds
+[2025-03-03T05:34:38.129+0000] {processor.py:186} INFO - Started process (PID=9006) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:34:38.130+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:34:38.133+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:34:38.133+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:34:38.400+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:34:38.400+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:34:38.499+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:34:38.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.392 seconds
+[2025-03-03T05:35:08.900+0000] {processor.py:186} INFO - Started process (PID=9033) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:35:08.901+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:35:08.905+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:08.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:35:09.181+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:35:09.181+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:35:09.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:35:09.313+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.422 seconds
