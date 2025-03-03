@@ -23,7 +23,7 @@ default_args = {
 with DAG(
     "json_ingestion_s3_partitioned",
     default_args=default_args,
-    schedule_interval="0 0 * * *",  # Runs daily at midnight
+    schedule_interval="0 1 * * *",  # Runs daily at midnight
     catchup=False,
 ) as dag:
 
