@@ -1902,3 +1902,31 @@
 [2025-03-03T05:08:53.639+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:08:53.638+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-03T05:08:53.670+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:08:53.670+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_data_transformation to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
 [2025-03-03T05:08:53.689+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/transformation_dag.py took 0.110 seconds
+[2025-03-03T05:09:24.109+0000] {processor.py:186} INFO - Started process (PID=7678) to work on /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:09:24.110+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/transformation_dag.py for tasks to queue
+[2025-03-03T05:09:24.113+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:24.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:09:24.128+0000] {processor.py:925} INFO - DAG(s) 's3_data_transformation' retrieved from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:09:24.161+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:24.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:09:24.192+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:24.191+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_data_transformation to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:09:24.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/transformation_dag.py took 0.111 seconds
+[2025-03-03T05:09:54.592+0000] {processor.py:186} INFO - Started process (PID=7705) to work on /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:09:54.594+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/transformation_dag.py for tasks to queue
+[2025-03-03T05:09:54.597+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:54.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:09:54.611+0000] {processor.py:925} INFO - DAG(s) 's3_data_transformation' retrieved from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:09:54.643+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:54.643+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:09:54.674+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:54.674+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_data_transformation to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:09:54.695+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/transformation_dag.py took 0.111 seconds
+[2025-03-03T05:10:25.052+0000] {processor.py:186} INFO - Started process (PID=7732) to work on /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:10:25.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/transformation_dag.py for tasks to queue
+[2025-03-03T05:10:25.058+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:25.057+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:10:25.076+0000] {processor.py:925} INFO - DAG(s) 's3_data_transformation' retrieved from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:10:25.114+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:25.114+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:10:25.155+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:25.155+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_data_transformation to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:10:25.185+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/transformation_dag.py took 0.142 seconds
+[2025-03-03T05:10:55.320+0000] {processor.py:186} INFO - Started process (PID=7759) to work on /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:10:55.321+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/test/transformation_dag.py for tasks to queue
+[2025-03-03T05:10:55.324+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:55.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:10:55.338+0000] {processor.py:925} INFO - DAG(s) 's3_data_transformation' retrieved from /opt/airflow/dags/test/transformation_dag.py
+[2025-03-03T05:10:55.371+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:55.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:10:55.401+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:55.401+0000] {dag.py:4180} INFO - Setting next_dagrun for s3_data_transformation to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:10:55.418+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/test/transformation_dag.py took 0.106 seconds

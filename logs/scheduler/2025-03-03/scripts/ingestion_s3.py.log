@@ -1630,3 +1630,27 @@
 [2025-03-03T05:08:57.918+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:08:57.918+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
 [2025-03-03T05:08:58.019+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
 [2025-03-03T05:08:58.033+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.402 seconds
+[2025-03-03T05:09:28.149+0000] {processor.py:186} INFO - Started process (PID=7683) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:09:28.151+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:09:28.155+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:28.154+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:09:28.284+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:28.284+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:09:28.544+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:09:28.561+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.420 seconds
+[2025-03-03T05:09:58.637+0000] {processor.py:186} INFO - Started process (PID=7710) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:09:58.638+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:09:58.641+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:58.641+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:09:58.744+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:09:58.744+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:09:59.000+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:09:59.016+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.387 seconds
+[2025-03-03T05:10:29.088+0000] {processor.py:186} INFO - Started process (PID=7737) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:10:29.089+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:10:29.092+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:29.092+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:10:29.196+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:10:29.196+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:10:29.454+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:10:29.470+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.390 seconds
+[2025-03-03T05:11:00.369+0000] {processor.py:186} INFO - Started process (PID=7764) to work on /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:11:00.370+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/scripts/ingestion_s3.py for tasks to queue
+[2025-03-03T05:11:00.374+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:11:00.373+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:11:00.610+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:11:00.609+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:11:00.708+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/scripts/ingestion_s3.py
+[2025-03-03T05:11:00.719+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/scripts/ingestion_s3.py took 0.358 seconds
