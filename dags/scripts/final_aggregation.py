@@ -43,7 +43,7 @@ queries = {
         COUNT(*) AS purchase_count
         from transformed.transformed_processed
         WHERE event_type = 'purchase'
-        GROUP BY user_id, DATE(TIMESTAMP 'epoch' + timestamp / 1000000000 * INTERVAL '1 second') AS purchase_date
+        GROUP BY user_id, DATE(TIMESTAMP 'epoch' + timestamp / 1000000000 * INTERVAL '1 second')
         HAVING COUNT(*) > 1
         ORDER BY purchase_count DESC;
      """
