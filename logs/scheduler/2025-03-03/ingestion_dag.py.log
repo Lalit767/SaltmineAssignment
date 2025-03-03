@@ -2038,3 +2038,59 @@
 [2025-03-03T04:58:58.143+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:58:58.143+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-03T04:58:58.173+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:58:58.173+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
 [2025-03-03T04:58:58.193+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.486 seconds
+[2025-03-03T04:59:28.457+0000] {processor.py:186} INFO - Started process (PID=7160) to work on /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T04:59:28.458+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2025-03-03T04:59:28.462+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:28.461+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T04:59:28.565+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:28.565+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T04:59:28.828+0000] {processor.py:925} INFO - DAG(s) 'json_ingestion_s3_partitioned' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T04:59:28.853+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:28.853+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T04:59:28.883+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:28.883+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T04:59:28.902+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.453 seconds
+[2025-03-03T04:59:59.021+0000] {processor.py:186} INFO - Started process (PID=7187) to work on /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T04:59:59.023+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2025-03-03T04:59:59.029+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:59.028+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T04:59:59.367+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:59.367+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T04:59:59.480+0000] {processor.py:925} INFO - DAG(s) 'json_ingestion_s3_partitioned' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T04:59:59.510+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:59.510+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T04:59:59.539+0000] {logging_mixin.py:190} INFO - [2025-03-03T04:59:59.538+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T04:59:59.558+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.550 seconds
+[2025-03-03T05:00:29.747+0000] {processor.py:186} INFO - Started process (PID=7214) to work on /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:00:29.748+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2025-03-03T05:00:29.751+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:00:29.751+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:00:30.044+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:00:30.044+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:00:30.199+0000] {processor.py:925} INFO - DAG(s) 'json_ingestion_s3_partitioned' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:00:30.231+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:00:30.230+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:00:30.271+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:00:30.271+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:00:30.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.557 seconds
+[2025-03-03T05:01:00.524+0000] {processor.py:186} INFO - Started process (PID=7241) to work on /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:01:00.525+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2025-03-03T05:01:00.528+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:00.528+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:01:00.643+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:00.643+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:01:00.919+0000] {processor.py:925} INFO - DAG(s) 'json_ingestion_s3_partitioned' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:01:00.950+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:00.949+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:01:00.981+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:00.981+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:01:01.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.489 seconds
+[2025-03-03T05:01:31.429+0000] {processor.py:186} INFO - Started process (PID=7268) to work on /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:01:31.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2025-03-03T05:01:31.433+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:31.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:01:31.548+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:31.547+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:01:31.815+0000] {processor.py:925} INFO - DAG(s) 'json_ingestion_s3_partitioned' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:01:31.844+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:31.843+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:01:31.874+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:01:31.874+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:01:31.897+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.477 seconds
+[2025-03-03T05:02:02.239+0000] {processor.py:186} INFO - Started process (PID=7295) to work on /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:02:02.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2025-03-03T05:02:02.245+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:02.245+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:02:02.424+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:02.424+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:02:02.731+0000] {processor.py:925} INFO - DAG(s) 'json_ingestion_s3_partitioned' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:02:02.761+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:02.760+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:02:02.795+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:02.795+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:02:02.816+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.596 seconds
+[2025-03-03T05:02:33.043+0000] {processor.py:186} INFO - Started process (PID=7322) to work on /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:02:33.044+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/ingestion_dag.py for tasks to queue
+[2025-03-03T05:02:33.048+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:33.047+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:02:33.295+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:33.294+0000] {credentials.py:1278} INFO - Found credentials in shared credentials file: ~/.aws/credentials
+[2025-03-03T05:02:33.407+0000] {processor.py:925} INFO - DAG(s) 'json_ingestion_s3_partitioned' retrieved from /opt/airflow/dags/ingestion_dag.py
+[2025-03-03T05:02:33.436+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:33.435+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-03T05:02:33.463+0000] {logging_mixin.py:190} INFO - [2025-03-03T05:02:33.463+0000] {dag.py:4180} INFO - Setting next_dagrun for json_ingestion_s3_partitioned to 2025-03-03 00:00:00+00:00, run_after=2025-03-04 00:00:00+00:00
+[2025-03-03T05:02:33.482+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/ingestion_dag.py took 0.447 seconds
