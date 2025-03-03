@@ -23,7 +23,7 @@ dag = DAG(
     "s3_to_redshift_transformed",
     default_args=default_args,
     description="Pipeline to extract, transform, and load data from S3 to Redshift",
-    schedule_interval="@daily",
+    schedule_interval=""0 2 * * *"",
     catchup=False,
 )
 
