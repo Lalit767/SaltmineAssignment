@@ -12,6 +12,8 @@ The pipeline follows an Extract-Transform-Load (ETL) approach:
 
 ## 3. Architecture
 
+
+
 ### 3.1 High-Level Architecture
 The pipeline consists of the following components:
 
