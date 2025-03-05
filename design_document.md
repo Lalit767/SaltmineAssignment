@@ -11,7 +11,7 @@ The pipeline follows an Extract-Transform-Load (ETL) approach:
 - **Load**: Stores the processed data in a scalable storage system for analytical use.
 
 ## 3. Architecture
-
+![Architecture Diagram](image.png)
 
 
 ### 3.1 High-Level Architecture
