@@ -14,6 +14,13 @@ services:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
       - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__SMTP__SMTP_HOST=smtp.gmail.com
+      - AIRFLOW__SMTP__SMTP_STARTTLS=True
+      - AIRFLOW__SMTP__SMTP_SSL=False
+      - AIRFLOW__SMTP__SMTP_PORT=587
+      - AIRFLOW__SMTP__SMTP_USER=lalit.anand676@gmail.com
+      - AIRFLOW__SMTP__SMTP_PASSWORD=qlqq nbng xeft vdfr
+      - AIRFLOW__SMTP__SMTP_MAIL_FROM=lalit.anand676@gmail.com
 
     volumes:
       - ./dags:/opt/airflow/dags
@@ -23,6 +30,7 @@ services:
       - ./dags/scripts:/opt/airflow/dags/scripts
       - ./datafiles/product_metadata:/opt/airflow/datafiles/product_metadata
       - ~/.aws:/home/airflow/.aws
+      - ./config/airflow.cfg:/opt/airflow/airflow.cfg
     command: webserver
 
   airflow-scheduler:
@@ -36,6 +44,13 @@ services:
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__SMTP__SMTP_HOST=smtp.gmail.com
+      - AIRFLOW__SMTP__SMTP_STARTTLS=True
+      - AIRFLOW__SMTP__SMTP_SSL=False
+      - AIRFLOW__SMTP__SMTP_PORT=587
+      - AIRFLOW__SMTP__SMTP_USER=lalit.anand676@gmail.com
+      - AIRFLOW__SMTP__SMTP_PASSWORD=qlqq nbng xeft vdfr
+      - AIRFLOW__SMTP__SMTP_MAIL_FROM=lalit.anand676@gmail.com
     volumes:
       - ./dags:/opt/airflow/dags
       - ./logs:/opt/airflow/logs
@@ -44,6 +59,7 @@ services:
       - ./dags/scripts:/opt/airflow/dags/scripts
       - ./datafiles/product_metadata:/opt/airflow/datafiles/product_metadata
       - ~/.aws:/home/airflow/.aws
+      - ./config/airflow.cfg:/opt/airflow/airflow.cfg
     command: scheduler
 
   airflow-init:
@@ -52,6 +68,13 @@ services:
     environment:
       - AIRFLOW__CORE__EXECUTOR=LocalExecutor
       - AIRFLOW__CORE__SQL_ALCHEMY_CONN=postgresql+psycopg2://airflow:airflow@postgres:5432/airflow
+      - AIRFLOW__SMTP__SMTP_HOST=smtp.gmail.com
+      - AIRFLOW__SMTP__SMTP_STARTTLS=True
+      - AIRFLOW__SMTP__SMTP_SSL=False
+      - AIRFLOW__SMTP__SMTP_PORT=587
+      - AIRFLOW__SMTP__SMTP_USER=lalit.anand676@gmail.com
+      - AIRFLOW__SMTP__SMTP_PASSWORD=qlqq nbng xeft vdfr
+      - AIRFLOW__SMTP__SMTP_MAIL_FROM=lalit.anand676@gmail.com
     command: ["airflow","db", "init"]
 
   postgres:
